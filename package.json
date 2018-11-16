@@ -2,9 +2,21 @@
   "name": "test_project",
   "private": true,
   "dependencies": {
-    "@rails/webpacker": "3.5"
+    "@babel/core": "^7.1.6",
+    "@babel/plugin-proposal-class-properties": "^7.1.0",
+    "@babel/plugin-proposal-object-rest-spread": "^7.0.0",
+    "@babel/plugin-syntax-dynamic-import": "^7.0.0",
+    "@babel/polyfill": "^7.0.0",
+    "@babel/preset-env": "^7.1.6",
+    "@babel/preset-react": "^7.0.0",
+    "@rails/webpacker": "^4.0.0-pre.3",
+    "prop-types": "^15.6.2",
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3",
+    "react-router": "^4.3.1",
+    "webpack-dev-server": "^3.1.10",
+    "webpack-merge": "^4.1.4",
+    "webpacker-react": "^0.3.2"
   },
-  "devDependencies": {
-    "webpack-dev-server": "2.11.2"
-  }
+  "devDependencies": {}
 }
