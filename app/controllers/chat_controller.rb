@@ -1,3 +1,5 @@
 class ChatController < ApplicationController
-  def index; end
+  def index
+    render html: nil, layout: 'application'
+  end
 end
